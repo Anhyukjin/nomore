@@ -1,0 +1,21 @@
+
+public class Test3 {
+
+	public static void main(String[] args) {
+
+	int i;
+	int random;
+	
+	System.out.println("===== 50번 던졌을 때 나온 주사위 눈 출력 =====");
+	for(i = 0; i < 50; i++) {
+		random = (int)(Math.rand() * 6 + 1);
+		System.out.printf("%3d", random);
+		switch(random) {
+		case:1
+			
+		}
+	}
+		
+	}
+
+}

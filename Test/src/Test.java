@@ -1,0 +1,20 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		int c = 0;
+		int i;
+		
+		for(i = 1; i <= 200; i++) {
+			if(i % 2 != 0)
+				c += i;
+			else
+				c -= i;
+		}
+		
+		System.out.printf("%d\n", c);
+
+	}
+
+}
