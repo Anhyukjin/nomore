@@ -1,0 +1,16 @@
+
+public class Test4 {
+
+	public static void main(String[] args) {
+
+	int C;
+	double F;
+	
+	for(C = -60; C <= 140; C++) {
+		F = (9.0/5.0)*C + 32;
+		System.out.printf("%dCÀÏ¶§ %dF", C, (int)F);
+	}
+		
+	}
+
+}

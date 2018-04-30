@@ -1,0 +1,22 @@
+
+public class Test5 {
+
+	public static void main(String[] args) {
+
+		int r = 0;
+		int i;
+		
+		for (i = 0; r <= 5000; i++){
+			
+			if((r + i) > 5000)
+				break;
+			r = r + i;
+			
+			
+		}
+		System.out.println("가장큰 합 : " + r + " 그 때의 i 값 : " + i);
+
+		
+	}
+
+}
